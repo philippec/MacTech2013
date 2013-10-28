@@ -1,0 +1,81 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.casgrain.mactech.2013",
+  "serialNumber" : "ABCDEF-12345",
+  "teamIdentifier" : "V7QY36F2JR",
+  "webServiceURL" : "https://mactech-passbook.appspot.com/passbook/",
+  "authenticationToken" : "3C04F878-958F-46D1-85C3-19504E40310C",
+  "relevantDate" : "2013-10-11T19:00-04:00",
+  "locations" : [
+    {
+      "latitude"  :  33.90012,
+      "longitude" : -118.38824
+    }
+  ],
+  "organizationName" : "MacTech Conference",
+  "description" : "November 2013",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(160, 10, 10)",
+  "eventTicket" : {
+    "headerFields" : [
+      {
+        "key" : "meetingHeader",
+        "label" : "MACTECH",
+        "value" : "Nov. 6th",
+      }
+    ],
+    "primaryFields" : [
+      {
+        "key" : "event",
+        "label" : "MacTech Conference",
+        "value" : "November 2013"
+      }
+    ],
+	"secondaryFields" : [
+      {
+        "key" : "loc",
+        "label" : "LOCATION",
+        "value" : "Manhattan Beach Marriott",
+      },
+      {
+        "key" : "meetingTime",
+        "label" : "Nov. 6-8th",
+        "value" : "2013",
+      }
+    ],
+	"auxiliaryFields" : [
+      {
+        "key" : "topic1",
+        "label" : "Philippe Casgrain",
+        "value" : "Passbook for Developers"
+      }
+    ],
+    "backFields" : [
+      {
+        "key" : "datetime",
+        "label" : "WHEN",
+        "value" : "Wednesday, November 6th to Friday, November 8th 2013"
+      },
+      {
+        "key" : "location-detail",
+        "label" : "WHERE",
+        "value" : "Manhattan Beach Marriott, 1400 Parkview Avenue Manhattan Beach, California 90266 USA"
+      },
+      {
+        "key" : "topic1-detail",
+        "label" : "Philippe Casgrain",
+        "value" : "Passbook for Developers"
+      },
+      {
+        "key" : "website",
+        "label" : "WEBSITE",
+        "value" : "http://www.mactech.com/conference/"
+      },
+      {
+        "key" : "organizer",
+        "label" : "ORGANIZER",
+        "value" : "Edward Marczak, exec-editor@mactech.com"
+      }
+    ]
+  }
+}
