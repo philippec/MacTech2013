@@ -10,6 +10,9 @@
     <h1>
       Passbook for Developers
     </h1>
+    <h3>
+        Author: Philippe Casgrain, <a href="http://twitter.com/philippec">@philippec</a>
+    </h3>
     <h2>
         Pre-requisites
     </h2>
@@ -18,10 +21,15 @@
             <a href="https://developer.apple.com/devcenter/ios/index.action">Apple iOS Developer account</a>
         </li>
         <li>
-            (Optional) <a href="https://appengine.google.com/">Google App Engine account</a>
+            (Optional) <a href="https://appengine.google.com/">Google App Engine account</a> (to run a server)<br>
+            <em>Requires a free Google account and a SMS-enabled phone.</em>
         </li>
         <li>
-            (Optional) <a href="http://urbanairship.com">Urban Airship account</a>
+            (Optional) <a href="http://urbanairship.com">Urban Airship account</a> (to send push notifications)<br>
+            <em>Sign up for the "Developer" plan, which is free.</em>
+        </li>
+        <li>
+            (Optional) <a href="https://developer.apple.com/xcode/">Xcode</a> (to build the 'signpass' tool)
         </li>
     </ul>
     <h2>
@@ -43,7 +51,7 @@
             Create a pass-signing certificate at <a href="https://developer.apple.com/account/ios/certificate/certificateList.action">developer.apple.com</a>
         </li>
         <li>
-            Modify the sample pass with your Team ID and your pass identifier
+            Modify the sample MacTech pass (from the <a href="https://github.com/philippec/MacTech2013">Github repository</a>) with your Team ID and your pass identifier
         </li>
         <li>
             Build the 'signpass' command-line application
@@ -60,11 +68,11 @@
     </h2>
     <ul>
         <li>
-            Send it via email or iMessage
+            Send it via email, iMessage or AirDrop
         </li>
         <li>
             Store it on your webserver and distribute the URL<br>
-            Make sure to set the mime-type to "application/vnd.apple.pkpass"
+            <em>Make sure to set the mime-type to "application/vnd.apple.pkpass"</em>
         </li>
         <li>
             Build the Google App Engine server from the sample code.
@@ -76,7 +84,7 @@
                     Sign your pass with <code>./signpass -p MacTech.raw -o ../server/mactech.pkpass </code>
                 </li>
                 <li>
-                    Deploy from the Google App Engine console and download at https://yourappname.appspot.com/passes/mactech.pkpass
+                    Deploy from the Google App Engine console and download at <code>https://yourappname.appspot.com/passes/mactech.pkpass</code>
                 </li>
             </ul>
         </li>
