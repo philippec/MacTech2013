@@ -17,14 +17,15 @@
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp import util
 from google.appengine.ext import db
-from google.appengine.dist import use_library
-use_library('django', '1.2')
+# from google.appengine.dist import use_library
+# use_library('django', '1.2')
 from django.utils import simplejson as json
 import urbanairship
 import os
 import datetime
 from urlparse import urlparse
 import logging
+from PrivateInfo import *
 
 class RegisteredDevice(db.Model):
     deviceLibraryIdentifier = db.StringProperty()
