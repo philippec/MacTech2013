@@ -96,11 +96,35 @@
     <h2>
         To use push notifications
     </h2>
+    <h3>
+        First, you must set up Push Notifications by hooking up your Google App Engine app to Urban Airship
+    </h3>
     <ul>
         <li>
-            TODO
+            Create a "Production" project in the Urban Airship dashboard
+        </li>
+        <li>
+            Export your certificate & private key into a p12 file with a password
+        </li>
+        <li>
+            Import this certificate in Urban Airship to give it permission to create push notifications on your behalf
+        </li>
+        <li>
+            Enter the correct App Key and App Master Key in PrivateInfo.py. They can be found in the Urban Airship control panel under Settings > API Keys
         </li>
     </ul>
+    <h3>
+        Next, use Urban Airship to send push notifications
+    </h3>
+    <ul>
+        <li>
+            Create a message in Urban Airship's "Messages > +New Push Message"
+        </li>
+        <li>
+            Send a message. I use <code>sound : "ignored"</code> to send an empty message
+        </li>
+    </ul>
+    Your messages are now delivered, and your passes are updating.
 
     {{ page_footer }}
   </body>
