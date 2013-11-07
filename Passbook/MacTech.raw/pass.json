@@ -5,7 +5,7 @@
   "teamIdentifier" : "V7QY36F2JR",
   "webServiceURL" : "https://mactech-passbook.appspot.com/passbook/",
   "authenticationToken" : "3C04F878-958F-46D1-85C3-19504E40310C",
-  "relevantDate" : "2013-10-11T19:00-04:00",
+  "relevantDate" : "2013-11-06T16:00-08:00",
   "locations" : [
     {
       "latitude"  :  33.90012,
@@ -14,8 +14,9 @@
   ],
   "organizationName" : "MacTech Conference",
   "description" : "November 2013",
-  "foregroundColor" : "rgb(255, 255, 255)",
-  "backgroundColor" : "rgb(160, 10, 10)",
+  "foregroundColor" : "rgb(12, 24, 10)",
+  "labelColor" : "rgb(12, 24, 10)",
+  "backgroundColor" : "rgb(10, 140, 10)",
   "eventTicket" : {
     "headerFields" : [
       {
@@ -48,6 +49,12 @@
         "key" : "topic1",
         "label" : "Philippe Casgrain",
         "value" : "Passbook for Developers"
+      },
+      {
+        "key" : "topic2",
+        "label" : "Maria Bouniol",
+        "value" : "iBooks Development",
+        "changeMessage" : "New topic: %@"
       }
     ],
     "backFields" : [
@@ -64,7 +71,12 @@
       {
         "key" : "topic1-detail",
         "label" : "Philippe Casgrain",
-        "value" : "Passbook for Developers"
+        "value" : "Passbook is one of the most underrated features of iOS 6. In this session, we will explore how to create and maintain interactive, auto-updating, user-specific passes from basic design to server-side endpoints. From event tickets to geo-localized coupons, learn how you can create engaging passes as successfully as the NSNorth conference. There might even be a live demo with audience participation (network and Demo Gods permitting)."
+      },
+      {
+        "key" : "topic2-detail",
+        "label" : "Maria Bouniol",
+        "value" : "Learn the different ways of making ebooks compatible with iBooks. We will focus on the three different ways to make an ebook bring the most out of the story you want to tell, from flowing text to rich fixed layouts, you will learn how to bring everything together down to the nitty gritty. Want to take advantage of iBooks specific features like engaging multitouch interaction? Stick around for the second part of the talk where you will be able to download assets to build an iBook from scratch with iBooks Author in an interactive workshop."
       },
       {
         "key" : "website",
